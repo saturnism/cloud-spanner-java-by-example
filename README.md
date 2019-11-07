@@ -12,7 +12,7 @@ stack you prefer, or what your application is already using.
 | [Spring Data Spanner](https://cloud.spring.io/spring-cloud-static/spring-cloud-gcp/1.1.3.RELEASE/multi/multi__spring_data_cloud_spanner.html) | Idiomatic Spring Data layer to Cloud Spanner. Consider this if you start with a new Spring Boot application, and need the most idiomatic, lightweight ORM to access loud Spanner features. |
 | [Hibernate](https://github.com/GoogleCloudPlatform/google-cloud-spanner-hibernate) | Hibernate dialect for Cloud Spanner. Consider this if you want to use Hibernate, or already using Hibernate. You can use Cloud Spanner with Hibernate with Spring Data JPA, Microprofile, Quarkus, etc. |
 | [JDBC](https://github.com/googleapis/google-cloud-java/tree/master/google-cloud-clients/google-cloud-contrib/google-cloud-spanner-jdbc) | Open source JDBC driver for Cloud Spanner. Consider this if you want to use Cloud Spanner with pure JDBC without any ORM. You can use this with Spring JDBC Template, MyBatis, etc. |
-| [R2DBC](https://github.com/GoogleCloudPlatform/cloud-spanner-r2dbc)| Reactive database driver with |
+| [R2DBC](https://github.com/GoogleCloudPlatform/cloud-spanner-r2dbc)| Reactive database driver for Cloud Spanner. Consider this if you are building a fully reactive application using Reactive Stream, Reactor, RxJava, Akka Streams, etc. |
 | [Cloud Spanner Client Library](https://github.com/googleapis/google-cloud-java/tree/master/google-cloud-clients/google-cloud-spanner) | Raw API access that may have raw features that any other options does not offer. Consider this as a last resort. | 
 
 ## Setup Cloud Spanner for Examples
